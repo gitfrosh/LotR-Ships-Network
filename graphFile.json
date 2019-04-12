@@ -1,0 +1,93 @@
+{
+    "nodes": [{
+        "id": "1",
+        "name": "Aragorn",
+        "species": "Human",
+        "group": 1,
+        "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    }, {
+        "id": "2",
+        "name": "Arwen",
+        "species": "Elf",
+        "group": 2,
+        "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    }, {
+        "id": "4",
+        "name": "Frodo",
+        "species": "Hobbit",
+        "group": 3,
+        "image": "https://randomuser.me/api/portraits/men/3.jpg"
+
+    }, {
+        "id": "8",
+        "name": "Samweis",
+        "species": "Hobbit",
+        "group": 3,
+        "image": "https://randomuser.me/api/portraits/men/4.jpg"
+    }, {
+        "id": "16",
+        "group": 1,
+        "image": "https://randomuser.me/api/portraits/women/86.jpg"
+
+    }, {
+        "id": "11",
+        "group": 3,
+        "image": "https://randomuser.me/api/portraits/women/8.jpg"
+
+    }, {
+        "id": "12",
+        "group": 2,
+        "image": "https://randomuser.me/api/portraits/women/4.jpg"
+
+    }, {
+        "id": "14",
+        "group": 1,
+        "image": "https://randomuser.me/api/portraits/women/13.jpg"
+
+    }, {
+        "id": "18",
+        "group": 3,
+        "image": "https://randomuser.me/api/portraits/women/12.jpg"
+
+    }, {
+        "id": "116",
+        "group": 5,
+        "image": "https://randomuser.me/api/portraits/women/11.jpg"
+
+    }, {
+        "id": "22",
+        "group": 3,
+        "image": "https://randomuser.me/api/portraits/women/76.jpg"
+
+    }, {
+        "id": "23",
+        "group": 5,
+        "image": "https://randomuser.me/api/portraits/women/44.jpg"
+
+    }],
+    "links": [{
+        "source": "1",
+        "target": "2",
+        "value": 15
+    }, {
+        "source": "11",
+        "target": "4",
+        "value": 15
+    }, {
+        "source": "4",
+        "target": "8",
+        "value": 5
+    }, {
+        "source": "4",
+        "target": "8",
+        "value": 1
+    }, {
+        "source": "8",
+        "target": "18",
+        "value": 1
+    }, {
+        "source": "16",
+        "target": "1",
+        "value": 1
+    }]
+}
